@@ -27,4 +27,4 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
-- Frontend Mentor - [@Zeiyar-Lynn]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/Zeiyar-Lynn]
