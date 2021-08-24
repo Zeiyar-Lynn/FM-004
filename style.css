@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+   --clr-900: hsl(234, 12%, 34%);
+   --clr-500: hsl(229, 6%, 66%);
+   --clr-200: hsl(0, 0%, 98%);
+}
+
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: var(--clr-200);
+}
+
+header, section {
+   margin-block: 4rem;
+}
+
+
+/* Utilities */
+.container {
+   width: min(90%, 72rem);
+   margin-inline: auto;
+}
+
+.txt-ctr {
+   text-align: center;
+}
+
+/* Header */
+header .container-ntr {
+   max-width: 33rem;
+}
+
+header h1 {
+   padding-block: .2em;
+   font-weight: 200;
+   line-height: 1.4;
+   color: var(--clr-900);
+}
+
+header h1 b {
+   font-weight: 600;
+}
+
+header p {
+   font-size: 15px;
+   padding-block: .3em;
+   color: var(--clr-500);
+}
+
+/* Section */
+section .container {
+   height: fit-content;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+section .container > div {
+   flex-basis: 380px;
+}
+
+section .card {
+   height: 240px;
+   margin: 1em;
+   padding: 1.5em;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: #fff;
+   box-shadow: 0 10px 10px hsla(229, 6%, 66%, .3);
+}
+
+.card-1 {
+   border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card-2 {
+   border-top: 4px solid hsl(0, 78%, 62%); 
+}
+
+.card-3 {
+   border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card-4 {
+   border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+section h2 {
+   font-size: 1.2rem;
+}
+
+section p {
+   font-size: 13px;
+   padding: .7em 0;
+   color: var(--clr-500);
+}
+
+section .icon{
+   align-self: end;
+}
+
+section .lef-card, section .rig-card {
+   align-self: center;
+   margin-bottom: -272px;
+}
+
+/* Tablet */
+@media (max-width: 1267px) {
+   section .lef-card, section .rig-card {
+      margin-bottom: 0;
+   }
+
+   section .container {
+      width: min(90%, 50rem);
+   }
+}
+
+/* Mobile */
+@media (max-width: 376px) {
+   header .container-ntr {
+      max-width: 18.5rem;
+   }
+
+   header h1 {
+      font-size: 1.4rem;
+   }
+
+   header p {
+      font-size: 14px;
+   }
+}
