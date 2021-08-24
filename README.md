@@ -18,7 +18,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-[C:\Users\User\Downloads\four card feature section.png]
+![Screenshot](C:\Users\User\Downloads\four card feature section.png?raw=true)
 
 ### Links
 - Solution URL: [https://github.com/Zeiyar-Lynn/FM-004]
